@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 925471403627.dkr.ecr.ap-northeast-2.amazonaws.com/eks-app-repo  #nginx
+  repository: 834281474060.dkr.ecr.us-east-1.amazonaws.com/githubactions-appl  #nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
