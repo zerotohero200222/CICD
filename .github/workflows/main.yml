@@ -1,9 +1,9 @@
 name: githubactions actions
 on: workflow_dispatch
 env:
-    AWS_REGION: ap-northeast-2
-    ECR_REPOSITORY: eks-app-repo
-    EKS_CLUSTER: eks-infra
+    AWS_REGION: us-east-1
+    ECR_REPOSITORY: githubactions-appl
+    EKS_CLUSTER: infra-eks
 
 jobs:
     Testing:
